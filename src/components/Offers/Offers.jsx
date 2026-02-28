@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Offers.css';
 
 const Offers = () => {
   return (
@@ -11,7 +11,7 @@ const Offers = () => {
             <button>Check Now</button>
         </div>
         <div className='offers-right'>
-            <img src="exclusive_image.webp" alt="exclusive-image"/>
+            <img src="exclu.webp" alt="exclusive-image"/>
         </div>
     </div>
   )

@@ -6,6 +6,7 @@ import ShopCategory from "./pages/ShopCategory";
 import Product from "./pages/Product";
 import LoginPage from "./pages/LoginPage";
 import Cart from "./pages/Cart";
+import Footer from "./components/Footer/Footer";
 export default function App() {
   return(
     <>
@@ -20,8 +21,8 @@ export default function App() {
         <Route path="/product" element={<Product/>} />
         <Route path=":productId" element={<Product/>}/>
         <Route path="login" element={<LoginPage/>}/>
-
       </Routes>
+      <Footer/>
     </BrowserRouter>
     </>
   )
