@@ -1,0 +1,87 @@
+.login {
+    /* margin: 100px; */
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #a7f6d4;
+    margin-bottom: 50px;
+    /* background: linear-gradient(180deg, #a7f6d4 0%, #e1ffea22 60%); */
+}
+
+.login-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 85vh;
+    background-color: white;
+    padding: 50px 60px;
+    margin:  auto;
+    border-radius: 55px;
+
+}
+
+.login-container h1 {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.login-feilds {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-feilds input {
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    font-size: 18px;
+    color: #5c5c5c;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.login-container button {
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(233, 47, 47);
+    width: 300px;
+    border: none;
+    color: white;
+    height: 50px;    
+}
+.account {
+    font-size: 20px;
+    font-weight: 400;
+}
+.account span {
+    color: rgb(218, 29, 61);
+    cursor: pointer;
+}
+
+.term-and-condition {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.term-and-condition p {
+    font-size: 18px;
+}
+
+.term-and-condition input {
+    height: 20px;
+    width: 20px;
+}

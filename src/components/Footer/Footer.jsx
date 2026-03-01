@@ -1,10 +1,14 @@
 import React from 'react'
 import './Footer.css'
+import facebookLink from '../../assets/facebook.png'
+import instagramLink from '../../assets/instagram.png'
+import twitterLink from '../../assets/twitter.png'
+import iconLink from '../../assets/social.png'
 const Footer = () => {
   return (
     <div className='footer'>
         <div className='footer-logo'>
-            <img src="social.png" alt="logo" height='50px'/>
+            <img src={iconLink} alt="logo" height='50px'/>
             <p>Shopify</p>
 
         </div>
@@ -17,13 +21,13 @@ const Footer = () => {
         </ul>
         <div className='footer-social-icon'>
             <div className='footer-icon-container'>
-                <img src="instagram.png" alt="instagram" height="30px"/>
+                <img src={instagramLink} alt="instagram" height="30px"/>
             </div>
             <div className='footer-icon-container'>
-                <img src="facebook.png" alt="facebook" height="30px"/>
+                <img src={facebookLink} alt="facebook" height="30px"/>
             </div>
             <div className='footer-icon-container'>
-                <img src="twitter.png" alt="twitter" height="30px"/>
+                <img src={twitterLink} alt="twitter" height="30px"/>
             </div>
         </div>
         <div className='footer-copyright'>
