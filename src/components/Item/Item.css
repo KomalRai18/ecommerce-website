@@ -3,6 +3,7 @@
     height: 480px;
     border: 1px solid black;
     border-radius: 20px;
+    padding: 0px;
 }
 
 .item p {
@@ -18,7 +19,7 @@
     margin-top: 10px;
 }   
 .item img {         
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         width: 250px;
         height: 360px;

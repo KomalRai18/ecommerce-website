@@ -3,9 +3,9 @@ import all_product from "../assets/all_products";
 export const ShopContext = createContext();
 
 export default function ShopProvider(props) {
-    const contextValue = all_product;
+    const products = all_product;
     return(
-        <ShopContext.Provider value={{contextValue}}>
+        <ShopContext.Provider value={{products}}>
             {props.children}
         </ShopContext.Provider>
     )

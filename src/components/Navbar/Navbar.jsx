@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
+import webIcon from '../../assets/social.png'
+import shoppingCart from '../../assets/shopping-cart.png';
 const Navbar = () => {
     const [menu, setMenu] = useState('home')
   return (
     <div className='navbar'>
         <div className='logo'>
-            <img src="social.png" alt="logo"  height='50px'/>
+            <img src={webIcon} alt="logo"  height='50px'/>
             <p>Shopify</p>
         </div>
         <ul className='nav-menu'>
@@ -17,7 +19,7 @@ const Navbar = () => {
         </ul>
         <div className='login-cart'>
             <Link to='login'><button>Login</button></Link>
-            <Link to='/cart'><img src="shopping-cart.png" alt="shopping-cart" height="40px"/></Link>
+            <Link to='/cart'><img src={shoppingCart} alt="shopping-cart" height="40px"/></Link>
             <p className="cart-count">0</p>
         </div>
     </div>
